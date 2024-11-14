@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@color/bg">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp">
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="391dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:gravity="center"
+        android:text="Stock Market Learning App"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+    <ImageView
+        android:id="@+id/ivBeginnerLevel"
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:layout_marginBottom="5dp"
+        android:clickable="true"
+        android:contentDescription="Beginner Level Image"
+        android:focusable="true"
+        android:src="@drawable/purple_and_pink_modern_trading_stock_youtube_thumbnail" />
+
+    <Button
+        android:id="@+id/btnBeginnerLevel"
+        android:layout_width="363dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="10dp"
+        android:text="Start Beginner Level"
+        android:backgroundTint="@color/bgButton"/>
+
+    <ImageView
+        android:id="@+id/ivIntermediateLevel"
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:layout_marginBottom="5dp"
+        android:clickable="true"
+        android:contentDescription="Intermediate Level Image"
+        android:focusable="true"
+        android:src="@drawable/green_simple_money_investment_tips_youtube_thumbnail" />
+
+    <Button
+        android:id="@+id/btnIntermediateLevel"
+        android:layout_width="363dp"
+        android:layout_height="wrap_content"
+        android:text="Start Intermediate Level"
+        android:layout_marginBottom="10dp"
+        android:layout_gravity="center"
+        android:backgroundTint="@color/bgButton"/>
+    <ImageView
+        android:id="@+id/ivAdvancedLevel"
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:layout_marginBottom="5dp"
+        android:src="@drawable/white_and_orange_modern_investing_class_youtube_thumbnail"
+        android:contentDescription="Advanced Level Image"
+        android:clickable="true"
+        android:focusable="true" />
+
+    <Button
+        android:id="@+id/btnAdvancedLevel"
+        android:layout_width="363dp"
+        android:layout_height="wrap_content"
+        android:text="Start Advanced Level"
+        android:layout_gravity="center"
+        android:backgroundTint="@color/bgButton"/>
+
+</LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
